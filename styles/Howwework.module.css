@@ -1,0 +1,83 @@
+.Howwework {
+  background: #f4f6fc;
+  padding: 100px 0px;
+}
+.HowweworkH2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.HowweworkP {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.7;
+}
+
+.HowweworkSecoundRowCol1H3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.HowweworkSecoundRowCol1P {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.7;
+}
+
+@media (max-width: 992px) and (min-width: 767px) {
+  .HowweworkSecoundRowCol1H3 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .HowweworkSecoundRowCol1P {
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .HowweworkSecoundRowCol2Row {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .HowweworkSecoundRowCol2Row {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .HowweworkSecoundRowCol2Row {
+    margin-top: 30px;
+  }
+}

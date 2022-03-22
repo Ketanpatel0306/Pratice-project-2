@@ -1,0 +1,100 @@
+.FrequentlyaskedquestionsRow{
+  padding: 100px 0px;
+}
+.FrequentlyaskedquestionsCol1H2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  /* or 147% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.FrequentlyaskedquestionsCol1H3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Royal Blue */
+
+  color: #2405f2;
+}
+
+.FrequentlyaskedquestionsCol1H31 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Royal Blue */
+
+  color: #2405f2;
+}
+.FrequentlyaskedquestionsCol1H4 {
+  padding: 0px 150px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.87;
+}
+.FrequentlyaskedquestionsCol1P{
+  font-size: 30px;
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .FrequentlyaskedquestionsCol1H4{
+    padding: 0px 27px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .FrequentlyaskedquestionsCol1H4{
+    padding: 0px 27px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .FrequentlyaskedquestionsCol1H2{
+    font-size: 28px;
+  }
+  .FrequentlyaskedquestionsCol1H31{
+    font-size: 17px;
+  }
+  .FrequentlyaskedquestionsCol1H3{
+    font-size: 17px;
+  }
+  .FrequentlyaskedquestionsCol1H4{
+    padding: 0px 27px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .FrequentlyaskedquestionsCol1H2{
+    font-size: 28px;
+  }
+  .FrequentlyaskedquestionsCol1H31{
+    font-size: 17px;
+  }
+  .FrequentlyaskedquestionsCol1H3{
+    font-size: 17px;
+  }
+  .FrequentlyaskedquestionsCol1H4{
+    padding: 0px 27px;
+  }
+}

@@ -1,0 +1,99 @@
+.ViewourprojectRow {
+  padding: 100px 0px;
+}
+.ViewourprojectHeadingDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.ViewourprojectHeadingDivH2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+
+.ViewourprojectCol1Div {
+  position: relative;
+}
+.ViewourprojectHeadingDivP {
+  align-self: flex-end;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  color: #282938;
+}
+.ViewourprojectCol1DivHiddenH4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  /* White */
+
+  color: #ffffff;
+}
+.ViewourprojectCol1DivHiddenH6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+
+.ViewourprojectCol1DivHiddenH6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.8;
+}
+.ViewourprojectCol1DivHiddenP {
+  color: #fcd980;
+}
+.ViewourprojectCol1DivHidden {
+  position: absolute;
+  background: linear-gradient(
+    329.39deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  top: 0%;
+  display: none;
+  padding: 20% 5% 5% 5%;
+}
+.ViewourprojectCol1Div:hover .ViewourprojectCol1DivHidden {
+  display: block;
+  width: 50%;
+  height: 100%;
+}
+
+.Image_cla {
+ /* width: 100%; */
+}

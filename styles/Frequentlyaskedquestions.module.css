@@ -1,4 +1,4 @@
-.FrequentlyaskedquestionsRow{
+.FrequentlyaskedquestionsRow {
   padding: 100px 0px;
 }
 .FrequentlyaskedquestionsCol1H2 {
@@ -57,44 +57,55 @@
 
   opacity: 0.87;
 }
-.FrequentlyaskedquestionsCol1P{
+.FrequentlyaskedquestionsCol1P {
   font-size: 30px;
 }
+.FrequentlyaskedquestionsCol1H3 {
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: #2405f2;
+text-align: left;
+  opacity: 0.87;
+}
 @media (max-width: 992px) and (min-width: 767px) {
-  .FrequentlyaskedquestionsCol1H4{
+  .FrequentlyaskedquestionsCol1H4 {
     padding: 0px 27px;
   }
 }
 @media (max-width: 767px) and (min-width: 567px) {
-  .FrequentlyaskedquestionsCol1H4{
+  .FrequentlyaskedquestionsCol1H4 {
     padding: 0px 27px;
   }
 }
 @media (max-width: 567px) and (min-width: 350px) {
-  .FrequentlyaskedquestionsCol1H2{
+  .FrequentlyaskedquestionsCol1H2 {
     font-size: 28px;
   }
-  .FrequentlyaskedquestionsCol1H31{
+  .FrequentlyaskedquestionsCol1H31 {
     font-size: 17px;
   }
-  .FrequentlyaskedquestionsCol1H3{
+  .FrequentlyaskedquestionsCol1H3 {
     font-size: 17px;
   }
-  .FrequentlyaskedquestionsCol1H4{
+  .FrequentlyaskedquestionsCol1H4 {
     padding: 0px 27px;
   }
 }
 @media (max-width: 350px) and (min-width: 320px) {
-  .FrequentlyaskedquestionsCol1H2{
+  .FrequentlyaskedquestionsCol1H2 {
     font-size: 28px;
   }
-  .FrequentlyaskedquestionsCol1H31{
+  .FrequentlyaskedquestionsCol1H31 {
     font-size: 17px;
   }
-  .FrequentlyaskedquestionsCol1H3{
+  .FrequentlyaskedquestionsCol1H3 {
     font-size: 17px;
   }
-  .FrequentlyaskedquestionsCol1H4{
+  .FrequentlyaskedquestionsCol1H4 {
     padding: 0px 27px;
   }
 }

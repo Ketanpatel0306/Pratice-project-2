@@ -95,5 +95,87 @@
 }
 
 .Image_cla {
- /* width: 100%; */
+  width: 100%;
+}
+.ViewourprojectCol2Div2h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+
+  /* White */
+
+  color: #ffffff;
+}
+.ViewourprojectCol2Div2P {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  /* Yellow */
+
+  color: #fcd980;
+}
+.ViewourprojectCol2MainDiv1 {
+  position: relative;
+  margin-bottom: 10px;
+}
+.ViewourprojectCol2MainDiv2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  opacity: 0;
+}
+.ViewourprojectCol2MainDiv1:hover .ViewourprojectCol2MainDiv2 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  padding: 50px;
+  background: linear-gradient(
+    329.39deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .ViewourprojectCol1DivHiddenH4 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+  .ViewourprojectCol2Div2h3 {
+    font-size: 17px;
+    line-height: 24px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .ViewourprojectCol2MainDiv1 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .ViewourprojectCol1DivHiddenH4 {
+    font-size: 12px;
+    line-height: 24px;
+  }
+  .ViewourprojectCol1DivHiddenH6 {
+    font-size: 10px;
+    line-height: 19px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .ViewourprojectCol1DivHiddenH4 {
+    font-size: 10px;
+    line-height: 24px;
+  }
+  .ViewourprojectCol1DivHiddenH6 {
+    font-size: 10px;
+    line-height: 19px;
+  }
 }

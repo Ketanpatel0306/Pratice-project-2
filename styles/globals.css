@@ -33,3 +33,28 @@ a {
   background: grey;
   margin-bottom: 30px;
 }
+.slick-prev,
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: #212529 !important;
+  border: none;
+  outline: none;
+  background: #212529 !important;
+}
+/* .slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+  color: #212529;
+  outline: none;
+  background: #212529;
+} */

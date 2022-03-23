@@ -3,7 +3,6 @@
 }
 
 .SendinquiryColDiv {
-  /* padding: 40px; */
   position: relative;
 }
 .SendinquiryColDivText {
@@ -16,7 +15,7 @@
 .SendinquiryColDivText {
   display: block;
   height: 100%;
-  background: rgba(28, 30, 83, 0.5);
+  background: rgba(28, 30, 83, 0.5);  
 }
 .SendinquiryColH2 {
   font-family: "Poppins";
@@ -24,10 +23,6 @@
   font-weight: 600;
   font-size: 54px;
   line-height: 74px;
-  /* or 137% */
-
-  /* White */
-
   color: #ffffff;
 }
 .SendinquiryColP {
@@ -36,8 +31,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-
   color: #ffffff;
 }
 .SendinquiryCol {
@@ -58,8 +51,6 @@
   font-weight: 500;
   font-size: 32px;
   line-height: 48px;
-  /* identical to box height, or 150% */
-
   color: #ffffff;
 }
 .SendinquiryCol2DivP {
@@ -68,10 +59,6 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 28px;
-  /* or 175% */
-
-  /* Grey */
-
   color: #f4f6fc;
 }
 .SendinquiryCol2DivForm {
@@ -89,17 +76,12 @@
   margin: 20px 0px;
   background: #fcd980;
   border-radius: 41px;
-  /* width: 472px; */
   height: 64px;
   font-family: "Manrope";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 32px;
-  /* identical to box height, or 178% */
-
-  /* DARK */
-
   color: #1b1c2b;
 }
 .SendinquiryCol2DivH4 {
@@ -108,15 +90,16 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 32px;
-  /* identical to box height, or 178% */
   text-align: center;
-  /* White */
-
   color: #ffffff;
 }
 @media (max-width: 1200px) and (min-width: 992px) {
 }
 @media (max-width: 992px) and (min-width: 767px) {
+  .SendinquiryColH2 {
+    font-size: 45px;
+    line-height: 45px;
+  }
 }
 @media (max-width: 767px) and (min-width: 567px) {
 }

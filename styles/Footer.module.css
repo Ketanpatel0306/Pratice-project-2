@@ -220,17 +220,23 @@
     padding: 0;
   }
   .FooterCol2DivH1 {
-    font-size: 36px;
+    font-size: 30px;
     line-height: 47px;
   }
   .FooterCol2DivP {
     font-size: 13px;
     line-height: 23px;
   }
+  .FooterH5{
+    text-align: center;
+  }
   .HeaderNav {
     flex-direction: row !important;
   }
   .HeaderNav {
     margin-left: 0;
+  }
+  .HeaderNavLink{
+    font-size: 12px;
   }
 }

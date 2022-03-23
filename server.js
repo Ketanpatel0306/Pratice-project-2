@@ -10,6 +10,9 @@ app.prepare().then(() => {
     app.render(req, res, "/");
   });
 
+  server.get("/aboutus", (req, res) => {
+    app.render(req, res, "/Aboutus");
+  });
   server.all("*", (req, res) => {
     return handle(req, res, "/");
   });

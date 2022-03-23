@@ -47,6 +47,7 @@
   color: #282938;
 }
 .WhatourclinetsCol2Div {
+  width: 80% !important;
   display: flex !important;
   margin-top: 20px;
 }

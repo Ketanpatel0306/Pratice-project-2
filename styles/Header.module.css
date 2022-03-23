@@ -8,6 +8,9 @@
 .HeaderToggle {
   background: #bbbbcb !important;
 }
+.HeaderToggle:focus{
+  box-shadow: none !important;
+}
 .HeaderNavLink {
   margin: 0px 15px;
   font-family: "Poppins";
@@ -16,6 +19,10 @@
   font-size: 16px;
   line-height: 28px;
   color: #bbbbcb !important;
+}
+.HeaderNavLink:hover{
+  color: black !important;
+  cursor: pointer;
 }
 .HeaderBtn {
   padding: 5px 30px;

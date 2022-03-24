@@ -7,59 +7,50 @@
   font-weight: 600;
   font-size: 38px;
   line-height: 56px;
-  /* or 147% */
-
-  /* Dark blue */
-
   color: #282938;
 }
+.FrequentlyaskedquestionsColMainDiv {
+  display: flex;
+  /* justify-content: space-between; */
+}
 .FrequentlyaskedquestionsCol1H3 {
-  
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height, or 150% */
-
   text-align: center;
-
-  /* Royal Blue */
-
   color: #2405f2;
 }
 
 .FrequentlyaskedquestionsCol1H31 {
- align-self: flex-end;
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 36px;
-  /* identical to box height, or 150% */
-
-  text-align: center;
-
-  /* Royal Blue */
-
-  color: #2405f2;
-}
-.FrequentlyaskedquestionsCol1H4 {
-  padding: 0px 150px;
+  margin-left: 10%;
+ 
+  cursor: pointer;
+  align-self: flex-end;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #2405f2;
+}
+.FrequentlyaskedquestionsCol1H4 {
+  justify-self: end;
+  margin-right: 10%;
+  padding-left: 12%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 32px;
-  /* or 178% */
-
-  /* Dark blue */
-
   color: #282938;
-
   opacity: 0.87;
 }
 .FrequentlyaskedquestionsCol1P {
+  margin-left: auto;
+  cursor: pointer;
   font-size: 30px;
   margin-bottom: 0;
   align-self: center;
@@ -72,50 +63,77 @@
   font-size: 18px;
   line-height: 32px;
   color: #2405f2;
-text-align: left;
+  text-align: left;
   opacity: 0.87;
 }
-@media (max-width: 992px) and (min-width: 767px) {
-  .FrequentlyaskedquestionsCol1H4 {
-    padding: 0px 27px;
+@media (max-width: 1200px) and (min-width: 992px) {
+  .FrequentlyaskedquestionsCol1H2 {
+    font-size: 30px;
+    line-height: 48px;
   }
-  .FrequentlyaskedquestionsCol1H31{
-    font-size: 18px;
+  .FrequentlyaskedquestionsCol1H4 {
+    padding-left: 13%;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .FrequentlyaskedquestionsCol1H2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .FrequentlyaskedquestionsCol1H4 {
+    padding: 0px 60px;
+  }
+  .FrequentlyaskedquestionsCol1H31 {
+    font-size: 17px;
   }
 }
 @media (max-width: 767px) and (min-width: 567px) {
-  .FrequentlyaskedquestionsCol1H4 {
-    padding: 0px 27px;
+  .FrequentlyaskedquestionsCol1H2 {
+    text-align: center;
   }
-  .FrequentlyaskedquestionsCol1H31{
+  .FrequentlyaskedquestionsCol1H3 {
+    text-align: center;
+  }
+  .FrequentlyaskedquestionsCol1H4 {
+    padding: 0px 72px;
+  }
+  .FrequentlyaskedquestionsCol1H31 {
     font-size: 18px;
   }
 }
 @media (max-width: 567px) and (min-width: 350px) {
   .FrequentlyaskedquestionsCol1H2 {
+    text-align: center;
     font-size: 28px;
   }
   .FrequentlyaskedquestionsCol1H31 {
     font-size: 13px;
   }
   .FrequentlyaskedquestionsCol1H3 {
+    text-align: center;
     font-size: 17px;
   }
   .FrequentlyaskedquestionsCol1H4 {
-    padding: 0px 27px;
+    padding-left: 13%;
+    font-size: 12px;
+    line-height: 25px;
   }
 }
 @media (max-width: 350px) and (min-width: 320px) {
   .FrequentlyaskedquestionsCol1H2 {
+    text-align: center;
     font-size: 28px;
   }
   .FrequentlyaskedquestionsCol1H31 {
     font-size: 10px;
   }
   .FrequentlyaskedquestionsCol1H3 {
+    text-align: center;
     font-size: 17px;
   }
   .FrequentlyaskedquestionsCol1H4 {
-    padding: 0px 27px;
+    padding-left: 15%;
+    font-size: 12px;
+    line-height: 25px;
   }
 }

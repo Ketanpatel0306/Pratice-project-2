@@ -53,6 +53,10 @@
   opacity: 0.7;
 }
 @media (max-width:1200px) and (min-width:992px){
+  .HowweworkSecoundRowCol1P{
+    font-size: 14px;
+    line-height: 24px;
+  }
   .HowweworkSecoundRowCol1H3{
     font-size: 22px;
   }

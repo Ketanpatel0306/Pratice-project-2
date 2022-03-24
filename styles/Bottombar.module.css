@@ -1,25 +1,29 @@
 .bottomNav {
+  background: #1c1e53;
   width: 100%;
   height: 50px;
   position: fixed;
   bottom: 0;
   border-top: 1px solid var(--grey-color);
   z-index: 3;
-  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
+  cursor: pointer;
+  
+  /* display: none; */
 }
 .bnTab {
+  cursor: pointer;
   width: 25%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 @media (max-width: 992px) {
   .bottomNav {
-   opacity: 1;
+    /* display: flex; */
   }
 }

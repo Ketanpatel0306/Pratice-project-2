@@ -73,16 +73,33 @@
 }
 
 @media (max-width: 992px) and (min-width: 767px) {
+  .OurblogColMainDivH5 {
+    font-size: 10px;
+    line-height: 18px;
+  }
+  .OurblogColMainDivH3{
+    font-size: 13px;
+    line-height: 23px;
+  }
 }
 @media (max-width: 767px) and (min-width: 567px) {
+  .OurblogColMainDiv {
+    margin-right: 0;
+  }
 }
 @media (max-width: 567px) and (min-width: 350px) {
+  .OurblogColMainDiv {
+    margin-right: 0;
+  }
   .OurblogColMainDivH3 {
     font-size: 16px;
     line-height: 27px;
   }
 }
 @media (max-width: 350px) and (min-width: 320px) {
+  .OurblogColMainDiv {
+    margin-right: 0;
+  }
   .OurblogColMainDivH3 {
     font-size: 16px;
     line-height: 27px;

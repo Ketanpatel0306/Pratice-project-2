@@ -1,0 +1,113 @@
+.WhoweareContainer {
+  padding-bottom: 100px;
+}
+.WhoweareRow {
+  background: #f4f5f5;
+  padding: 50px;
+  /* padding: 0; */
+  margin: 0;
+}
+.WhoweareColFirst {
+}
+.WhoweareColFirstDivHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.WhoweareColFirstDivContent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  /* identical to box height, or 147% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.WhoweareColFirstDivText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media (max-width: 1400px) {
+  .WhoweareColFirstDivContent {
+    font-size: 30px;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .WhoweareColFirstDivHeading {
+    margin: 0;
+    font-size: 13px;
+  }
+  .WhoweareColFirstDivContent {
+    margin: 0;
+    font-size: 21px;
+  }
+  .WhoweareColFirstDivText {
+    font-size: 13px;
+    line-height: 23px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .WhoweareRow {
+    padding: 50px 0px;
+  }
+  .WhoweareColFirstDivHeading {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .WhoweareRow {
+    padding: 50px 0px;
+  }
+  .WhoweareColFirstDivHeading {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .WhoweareColFirstDivContent {
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+  }
+  .WhoweareColFirstDivText {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .WhoweareRow {
+    padding: 50px 0px;
+  }
+  .WhoweareColFirstDivHeading {
+    font-size: 15px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .WhoweareColFirstDivContent {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+  }
+  .WhoweareColFirstDivText {
+    font-size: 12px;
+    line-height: 22px;
+  }
+}

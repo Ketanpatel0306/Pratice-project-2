@@ -1,0 +1,231 @@
+.TheBenefitsRow {
+  padding: 100px 0px;
+}
+.TheBenefitsHeading {
+  margin-bottom: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* or 133% */
+
+  text-align: center;
+
+  /* Dark blue */
+
+  color: #282938;
+}
+
+.FeaturesColDiv {
+  height: 280px;
+  margin-bottom: 18px;
+  padding: 30px;
+  background: #f4f6fc;
+}
+.FeaturesColDivH3 {
+  margin: 10px 0px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height, or 150% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.FeaturesColDivP {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #282938;
+  opacity: 0.7;
+}
+/* last logo Div */
+.BenefitsLastLogoMainDiv {
+  display: flex;
+}
+.BenefitsLastLogoMainDivImg {
+  align-self: center;
+  text-align: end;
+}
+.BenefitsLastTextDivH2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  /* identical to box height, or 147% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.BenefitsLastTextDivH5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.7;
+}
+.BenefitsLastLogoMainDivImg1 {
+  width: 136.36px;
+  height: 32px;
+  margin-left: 20px;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .FeaturesColDivP {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .FeaturesColDivH3 {
+    font-size: 19px;
+  }
+  .BenefitsLastTextDivH2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .BenefitsLastLogoMainDivImg1 {
+    width: 130.36px;
+    margin-left: 10px;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .FeaturesColDiv {
+    height: 216px;
+  }
+  .FeaturesColDivH3 {
+    font-size: 12px;
+    line-height: 10px;
+  }
+  .FeaturesColDivP {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .BenefitsLastTextDivH2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .BenefitsLastLogoMainDivImg1 {
+    width: 83.36px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .TheBenefitsHeading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+  .FeaturesColDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .FeaturesColDivImg {
+    align-self: center;
+  }
+  .FeaturesColDivH3 {
+    align-self: center;
+  }
+  .BenefitsLastLogoMainDiv {
+    display: block;
+  }
+  .BenefitsLastTextDivH2 {
+    text-align: center;
+  }
+  .BenefitsLastTextDivH5 {
+    text-align: center;
+  }
+  .BenefitsLastLogoMainDivImg {
+    align-self: center;
+    text-align: center;
+  }
+  .BenefitsLastLogoMainDivImg1 {
+    margin-bottom: 20px;
+    margin-right: 14px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .TheBenefitsHeading {
+    font-size: 28px;
+    line-height: 45px;
+  }
+  .FeaturesColDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .FeaturesColDivImg {
+    align-self: center;
+  }
+  .FeaturesColDivH3 {
+    align-self: center;
+  }
+  .BenefitsLastLogoMainDiv {
+    display: block;
+  }
+  .BenefitsLastTextDivH2 {
+    text-align: center;
+  }
+  .BenefitsLastTextDivH5 {
+    text-align: center;
+  }
+  .BenefitsLastLogoMainDivImg {
+    align-self: center;
+    text-align: center;
+  }
+  .BenefitsLastLogoMainDivImg1 {
+    margin-bottom: 20px;
+    margin-right: 14px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .TheBenefitsHeading {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .FeaturesColDivP {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .FeaturesColDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .FeaturesColDivImg {
+    align-self: center;
+  }
+  .FeaturesColDivH3 {
+    align-self: center;
+    font-size: 18px;
+  }
+  .BenefitsLastLogoMainDiv {
+    display: block;
+  }
+  .BenefitsLastTextDivH2 {
+    text-align: center;
+  }
+  .BenefitsLastTextDivH5 {
+    text-align: center;
+  }
+  .BenefitsLastLogoMainDivImg {
+    align-self: center;
+    text-align: center;
+  }
+  .BenefitsLastLogoMainDivImg1 {
+    margin-bottom: 20px;
+    margin-right: 14px;
+    margin-left: 0px;
+  }
+}

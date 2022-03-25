@@ -11,9 +11,10 @@
   align-items: center;
   cursor: pointer;
   
-  /* display: none; */
+  display: none;
 }
 .bnTab {
+  z-index: 1;
   cursor: pointer;
   width: 25%;
   height: 100%;
@@ -24,6 +25,6 @@
 
 @media (max-width: 992px) {
   .bottomNav {
-    /* display: flex; */
+    display: flex;
   }
 }

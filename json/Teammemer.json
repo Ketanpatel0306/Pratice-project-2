@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "Img": "Images/man.svg",
+    "Img1": "Images/Negative.svg",
+    "Img2": "Images/Negative1.svg",
+    "Img3": "Images/Negative2.svg",
+    "Heading": "John Smith",
+    "Text": "CEO"
+  },
+  {
+    "id": 2,
+    "Img": "Images/man2.svg",
+    "Img1": "Images/Negative.svg",
+    "Img2": "Images/Negative1.svg",
+    "Img3": "Images/Negative2.svg",
+    "Heading": "Simon Adams",
+    "Text": "CEO"
+  },
+  {
+    "id": 3,
+    "Img": "Images/man3.svg",
+    "Img1": "Images/Negative.svg",
+    "Img2": "Images/Negative1.svg",
+    "Img3": "Images/Negative2.svg",
+    "Heading": "Paul Jones",
+    "Text": "CEO"
+  },
+  {
+    "id": 4,
+    "Img": "Images/girl.svg",
+    "Img1": "Images/Negative.svg",
+    "Img2": "Images/Negative1.svg",
+    "Img3": "Images/Negative2.svg",
+    "Heading": "Sara Hardin",
+    "Text": "CEO"
+  }
+]

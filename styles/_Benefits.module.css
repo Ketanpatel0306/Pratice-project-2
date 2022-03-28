@@ -1,5 +1,8 @@
 .TheBenefitsRow {
-  padding: 100px 0px;
+  padding-top: 100px;
+}
+.TheBenefitsRow1{
+  padding: 100px 0; 
 }
 .TheBenefitsHeading {
   margin-bottom: 30px;

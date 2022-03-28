@@ -13,6 +13,12 @@ app.prepare().then(() => {
   server.get("/aboutus", (req, res) => {
     app.render(req, res, "/Aboutus");
   });
+  server.get("/features", (req, res) => {
+    app.render(req, res, "/Features");
+  });
+  server.get("/pricing", (req, res) => {
+    app.render(req, res, "/Pricing");
+  });
   server.all("*", (req, res) => {
     return handle(req, res, "/");
   });

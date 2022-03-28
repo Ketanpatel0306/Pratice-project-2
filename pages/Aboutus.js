@@ -10,6 +10,7 @@ import {
   Whoweare,
 } from "../components";
 
+import "animate.css/animate.min.css";
 export default function Aboutus() {
   return (
     <div>

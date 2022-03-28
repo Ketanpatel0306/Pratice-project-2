@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "Heading": "$299",
+    "span": " Per Design",
+    "h3": "Landing Page",
+    "text": " When you’re ready to go beyond prototyping in Figma,",
+    "img": "Images/Pointer (6).svg",
+    "Btn": "Get started",
+    "List": [
+      "All limited links",
+      "Own analytics platform",
+      "Chat support",
+      "Optimize hashtags",
+      "Unlimited users"
+    ]
+  },
+  {
+    "id": 2,
+    "Heading": "$399",
+    "span": " Multi Design",
+    "h3": "Website Page ",
+    "text": "When you’re ready to go beyond prototyping in Figma, Webflow’s ready to help.",
+    "img": "Images/Pointer (6).svg",
+    "Btn": "Get started",
+    "List": [
+      "All limited links",
+      "Own analytics platform",
+      "Chat support",
+      "Optimize hashtags",
+      "Unlimited users"
+    ]
+  },
+  {
+    "id": 3,
+    "Heading": "$499 +",
+    "span": " Per Design",
+    "h3": "Complex Project ",
+    "text": "When you’re ready to go beyond prototyping in Figma,",
+    "img": "Images/Pointer (6).svg",
+    "Btn": "Get started",
+    "List": [
+      "All limited links",
+      "Own analytics platform",
+      "Chat support",
+      "Optimize hashtags",
+      "Unlimited users"
+    ]
+  }
+]

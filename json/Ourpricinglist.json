@@ -1,0 +1,23 @@
+[
+  { "id": 1, "img": "Images/Pointer (6).svg", "text": " All limited links" },
+  {
+    "id": 2,
+    "img": "Images/Pointer (6).svg",
+    "text": " Own analytics platform"
+  },
+  {
+    "id": 3,
+    "img": "Images/Pointer (6).svg",
+    "text": "Chat support"
+  },
+  {
+    "id": 4,
+    "img": "Images/Pointer (5).svg",
+    "text": "Optimize hashtags"
+  },
+  {
+    "id": 5,
+    "img": "Images/Pointer (5).svg",
+    "text": "Unlimited users"
+  }
+]

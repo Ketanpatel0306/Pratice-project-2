@@ -1,0 +1,221 @@
+.OurMissinon {
+}
+.OurMissinonRow {
+  margin: 0;
+  padding: 0;
+}
+.OurMissinonColFirstdiv {
+  padding-right: 110px;
+}
+.OurMissinonColFirstdiv1 {
+  padding-left: 110px;
+}
+.OurMissinonColFirst1,
+.OurMissinonColFirst2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.OurMissinonOdd1,
+.OurMissinonOdd {
+  margin: 50px 0px;
+  display: flex;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+.OurMissinonHeading1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  /* Dark blue */
+
+  color: #282938;
+}
+.OurMissinonHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.OurMissinonContent {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  /* identical to box height, or 147% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.OurMissinonText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.7;
+}
+.OurMissinonColFirstdiv1,
+.OurMissinonColFirstdiv {
+  margin-top: 50px;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .OurMissinonContent {
+    font-size: 30px;
+  }
+  .OurMissinonContent {
+    font-size: 22px;
+  }
+  .OurMissinonText {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .OurMissinonContent {
+    font-size: 21px;
+    line-height: 25px;
+  }
+  .OurMissinonText {
+    font-size: 11px;
+    line-height: 15px;
+  }
+  .OurMissinonColFirstdiv,
+  .OurMissinonColFirstdiv1 {
+    margin-top: 25px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .OurMissinonColFirstdiv {
+    padding-right: 0;
+  }
+
+  .OurMissinonText {
+    margin-bottom: 30px;
+  }
+  .OurMissinonOdd1 {
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .OurMissinonOdd {
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .OurMissinonColFirstdiv1 {
+    padding-left: 0;
+  }
+  .OurMissinonColFirst2 {
+    margin-top: 50px;
+  }
+
+  .OurMissinonColFirst1 {
+    margin-top: 0;
+  }
+  .OurMissinonHeading1 {
+    margin-left: 0;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .OurMissinonColFirstdiv {
+    padding-right: 0;
+  }
+  .OurMissinonContent {
+    font-size: 23px;
+  }
+
+  .OurMissinonText {
+    margin-bottom: 30px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .OurMissinonOdd1 {
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .OurMissinonOdd {
+    padding-left: auto;
+    padding-right: auto;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .OurMissinonColFirstdiv1 {
+    padding-left: 0;
+  }
+  .OurMissinonColFirst2 {
+    margin-top: 50px;
+  }
+
+  .OurMissinonColFirst1 {
+    margin-top: 0;
+  }
+  .OurMissinonHeading1 {
+    margin-left: 0;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .OurMissinonColFirstdiv {
+    padding-right: 0;
+  }
+  .OurMissinonContent {
+    font-size: 24px;
+  }
+  .OurMissinonText {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  .OurMissinonOdd1 {
+    padding-left: 16%;
+    padding-right: 16%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .OurMissinonOdd {
+    padding-left: 16%;
+    padding-right: 16%;
+    margin: 0;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .OurMissinonColFirstdiv1 {
+    padding-left: 0;
+  }
+  .OurMissinonColFirst2 {
+    margin-top: 50px;
+  }
+
+  .OurMissinonColFirst1 {
+    margin-top: 0;
+  }
+  .OurMissinonHeading1 {
+    margin-left: 0;
+  }
+}

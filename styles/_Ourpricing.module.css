@@ -1,0 +1,208 @@
+.OurpricingRow {
+  margin-top: 100px;
+}
+.OurpricingHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  /* identical to box height, or 133% */
+  text-align: center;
+  /* Dark blue */
+  margin-bottom: 0;
+}
+.OurpricingText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 175% */
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.7;
+}
+.OurpricingColDiv {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  padding: 30px;
+  width: 406px;
+  height: 745px;
+}
+.OurpricingColDivHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  /* identical to box height, or 147% */
+  display: flex;
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.OurpricingColDivHeadingSpan {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+  align-self: center;
+  /* Royal Blue */
+  margin-left: 10px;
+}
+.OurpricingColDivH3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /* Dark blue */
+}
+.OurpricingColDivText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+
+  /* Dark blue */
+
+  opacity: 0.7;
+}
+
+.OurpricingColDivListDiv {
+  display: flex;
+  margin: 10px 0px;
+}
+.OurpricingColDivListDivText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin-left: 20px;
+  /* identical to box height, or 175% */
+  margin-bottom: 0;
+  /* Dark blue */
+
+  color: #282938;
+}
+
+.OurpricingColDivBtn {
+  /* background: #282938 !important; */
+  border: none;
+  border-radius: 41px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+  align-self: center;
+  /* Grey */
+  width: 254px;
+  height: 64px;
+  color: #f4f6fc;
+}
+.OurpricingColDivBtn:hover {
+  background-color: #2405f2 !important;
+}
+@media (max-width: 1400px) and (min-width: 1200px) {
+  .OurpricingColDiv {
+    width: 350px;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .OurpricingColDiv {
+    width: auto;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .OurpricingColDiv {
+    width: auto;
+    height: 600px;
+  }
+  .OurpricingHeading {
+    font-size: 40px;
+  }
+  .OurpricingColDivHeading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .OurpricingColDivHeadingSpan {
+    font-size: 8px;
+    line-height: 20px;
+  }
+  .OurpricingColDivH3 {
+    margin: 10px 0px;
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .OurpricingColDivText {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .OurpricingColDivListDivMain {
+    margin: 25px 0px;
+  }
+  .OurpricingColDivListDivText {
+    font-size: 10px;
+    line-height: 22px;
+  }
+  .OurpricingColDivBtn {
+    width: 151px;
+    height: 45px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .OurpricingColDiv {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .OurpricingHeading {
+    font-size: 30px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .OurpricingColDiv {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .OurpricingHeading {
+    font-size: 20px;
+  }
+  .OurpricingText {
+    margin-top: 0px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .OurpricingColDiv {
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .OurpricingHeading {
+    font-size: 20px;
+  }
+  .OurpricingText {
+    margin-top: 0px;
+    font-size: 9px;
+    line-height: 20px;
+  }
+}

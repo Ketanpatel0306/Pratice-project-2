@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useState } from "react";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import {
   Header,
   Banner,
@@ -9,15 +10,19 @@ import {
   Features,
   Whatourclinets,
   Sendinquiry,
-  Ourblog,
   Bottombar,
   Frequentlyaskedquestions,
   Loader,
+  Ourblogmapcomp,
 } from "../components";
 import styles from "../styles/Home.module.css";
+import BlogStyle from "../styles/Ourblog.module.css";
+import Ourblogjson from "../json/Ourblog.json";
 
 export default function Home() {
   const [toggleMenu, setToggleMenu] = useState(false);
+  const [data, setData] = useState(Ourblogjson);
+
   const AddLoader = () => {
     setToggleMenu(true);
     setTimeout(() => {
@@ -55,7 +60,27 @@ export default function Home() {
       <Whatourclinets />
       <Frequentlyaskedquestions />
       <Sendinquiry />
-      <Ourblog />
+      <div>
+        <Container>
+          <Row className={BlogStyle.OurblogRow}>
+            <h1 className={BlogStyle.OurblogRowH1}>Our blog</h1>
+            {data.map((i, k) => {
+              if (k % 2 == 0) {
+                return (
+                  <Ourblogmapcomp
+                    h6={i.h6}
+                    h3={i.h3}
+                    h5={i.h5}
+                    img1={i.img1}
+                    img={i.img}
+                    p={i.p}
+                  />
+                );
+              }
+            })}
+          </Row>
+        </Container>
+      </div>
 
       <Footer />
     </div>

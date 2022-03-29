@@ -19,6 +19,18 @@ app.prepare().then(() => {
   server.get("/pricing", (req, res) => {
     app.render(req, res, "/Pricing");
   });
+  server.get("/work", (req, res) => {
+    app.render(req, res, "/Work");
+  });
+  server.get("/readcasestudy", (req, res) => {
+    app.render(req, res, "/Readcasestudy");
+  });
+  server.get("/blog", (req, res) => {
+    app.render(req, res, "/Blog");
+  });
+  server.get("/readblog", (req, res) => {
+    app.render(req, res, "/Readblog");
+  });
   server.all("*", (req, res) => {
     return handle(req, res, "/");
   });

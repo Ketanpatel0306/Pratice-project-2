@@ -25,5 +25,32 @@
     "h5": "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
     "p": "Read More",
     "img1": "Images/Arrow 3.svg"
+  },
+  {
+    "id": 4,
+    "img": "Images/Businessman.svg",
+    "h6": "19 Jan 2022",
+    "h3": "How one Webflow user grew his single person consultancy from   $0-100K in 14 months",
+    "h5": "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    "p": "Read More",
+    "img1": "Images/Arrow 3.svg"
+  },
+  {
+    "id": 5,
+    "img": "Images/woman (1).svg",
+    "h6": "19 Jan 2022",
+    "h3": "How one Webflow user grew his single person consultancy from   $0-100K in 14 months",
+    "h5": "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    "p": "Read More",
+    "img1": "Images/Arrow 3.svg"
+  },
+  {
+    "id": 6,
+    "img": "Images/Apple.svg",
+    "h6": "19 Jan 2022",
+    "h3": "How one Webflow user grew his single person consultancy from   $0-100K in 14 months",
+    "h5": "See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract",
+    "p": "Read More",
+    "img1": "Images/Arrow 3.svg"
   }
 ]

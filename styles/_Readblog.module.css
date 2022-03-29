@@ -1,0 +1,133 @@
+.BlogFirstDiv {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Blog{
+    padding-bottom: 100px;
+}
+
+.BlogFirstDivHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  color: #282938;
+}
+.BlogFirstDivText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #282938;
+}
+.BlogColFirstDivHeading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 56px;
+  /* or 147% */
+
+  /* Dark blue */
+
+  color: #282938;
+}
+.BlogColFirstDivText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  margin: 20px 0px;
+  /* Dark blue */
+
+  color: #282938;
+
+  opacity: 0.7;
+}
+.AboutProjectDivUl {
+  padding-left: 15px;
+}
+.AboutProjectDivLi {
+  margin-bottom: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: #282938;
+  opacity: 0.7;
+}
+@media (max-width: 992px) and (min-width: 767px) {
+  .BlogFirstDivHeading {
+    font-size: 44px;
+    line-height: 60px;
+  }
+  .BlogColFirstDivHeading {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+@media (max-width: 767px) and (min-width: 567px) {
+  .BlogFirstDivHeading {
+    font-size: 33px;
+    line-height: 50px;
+  }
+  .AboutProjectDivLi {
+    font-size: 13px;
+  }
+  .BlogColFirstDivHeading {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 567px) and (min-width: 350px) {
+  .BlogFirstDivHeading {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .BlogFirstDivText {
+    font-size: 14px;
+  }
+  .AboutProjectDivLi {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .BlogColFirstDivHeading {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .BlogColFirstDivText {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 350px) and (min-width: 320px) {
+  .BlogFirstDivHeading {
+    font-size: 18px;
+    line-height: 30px;
+  }
+  .BlogFirstDivText {
+    font-size: 12px;
+  }
+  .AboutProjectDivLi {
+    font-size: 10px;
+    line-height: 20px;
+  }
+  .BlogColFirstDivHeading {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .BlogColFirstDivText {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}

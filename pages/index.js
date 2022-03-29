@@ -7,22 +7,24 @@ import {
   Footer,
   Howwework,
   Viewourproject,
-  Features,
   Whatourclinets,
   Sendinquiry,
   Bottombar,
   Frequentlyaskedquestions,
   Loader,
   Ourblogmapcomp,
+  Featuremapcomp,
 } from "../components";
 import styles from "../styles/Home.module.css";
 import BlogStyle from "../styles/Ourblog.module.css";
 import Ourblogjson from "../json/Ourblog.json";
+import jsondata from "../json/Features.json";
+import FeatureStyle from "../styles/Features.module.css";
 
 export default function Home() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [data, setData] = useState(Ourblogjson);
-
+  const [featureData, setFeatureData] = useState(jsondata);
   const AddLoader = () => {
     setToggleMenu(true);
     setTimeout(() => {
@@ -56,7 +58,20 @@ export default function Home() {
       <Howwework />
       <Bottombar />
       <Viewourproject />
-      <Features />
+      <div className={FeatureStyle.Features}>
+        <Container>
+          <Row className={FeatureStyle.FeaturesRow}>
+            <h5 className={FeatureStyle.FeaturesH5}>Features</h5>
+            <h2 className={FeatureStyle.FeaturesH2}>
+              Design that solves <br />
+              problems, one product at <br /> a time
+            </h2>
+            {featureData.map((i, k) => {
+              return <Featuremapcomp img={i.img} h3={i.h3} p={i.p} />;
+            })}
+          </Row>
+        </Container>
+      </div>
       <Whatourclinets />
       <Frequentlyaskedquestions />
       <Sendinquiry />

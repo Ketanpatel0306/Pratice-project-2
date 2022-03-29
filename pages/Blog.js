@@ -46,6 +46,7 @@ export default function Blog() {
                   img1={i.img1}
                   img={i.img}
                   p={i.p}
+                  key={k + "blog"}
                 />
               );
             })}

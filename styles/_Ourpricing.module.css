@@ -87,7 +87,7 @@
 
 .OurpricingColDivListDiv {
   display: flex;
-  margin: 10px 0px;
+  margin: 6px 0px;
 }
 .OurpricingColDivListDivText {
   font-family: "Poppins";
@@ -95,10 +95,11 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
-  margin-left: 20px;
+  margin-left: 15px;
   /* identical to box height, or 175% */
   margin-bottom: 0;
   /* Dark blue */
+  align-self: center;
 
   color: #282938;
 }
@@ -121,6 +122,22 @@
 }
 .OurpricingColDivBtn:hover {
   background-color: #2405f2 !important;
+}
+.OurpricingColDivListDivTextH32 {
+  filter: grayscale(100%);
+}
+
+.OurpricingColDivListDivTextH3 {
+  content: "";
+  width: 26px;
+  height: 18px;
+  display: inline-block;
+  transform: rotate(180deg);
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #97daad;
+  vertical-align: middle;
+  margin-right: 10px;
 }
 @media (max-width: 1400px) and (min-width: 1200px) {
   .OurpricingColDiv {

@@ -25,8 +25,8 @@ app.prepare().then(() => {
   server.get("/readcasestudy", (req, res) => {
     app.render(req, res, "/Readcasestudy");
   });
-  server.get("/blog", (req, res) => {
-    app.render(req, res, "/Blog");
+  server.get("/features", (req, res) => {
+    app.render(req, res, "/Features");
   });
   server.get("/readblog", (req, res) => {
     app.render(req, res, "/Readblog");

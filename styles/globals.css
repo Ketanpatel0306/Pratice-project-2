@@ -39,7 +39,7 @@ a {
   top: 120% !important;
   right: 12% !important;
 }
- .slick-next {
+.slick-next {
   right: 5% !important;
 }
 .slick-prev,
@@ -147,6 +147,15 @@ a {
 .desktop {
   display: block;
 }
+.loderCss {
+  z-index: 999999999999;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 992px) {
   .mobile {
     display: block;
@@ -154,4 +163,16 @@ a {
   .desktop {
     display: none;
   }
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #ffffff !important;
+}
+
+.btn-check:active + .btn-primary,
+.btn-check:checked + .btn-primary,
+.btn-primary.active,
+.btn-primary:active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff !important;
 }
